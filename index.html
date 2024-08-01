@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Ticketing</title>
+    <title>A-05 Smart-Ticketing</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"/>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font inter and Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- NEEEDDDD CCHHAAANNGGEEEEE -->
+    <style>
+
+        .inter
+        {
+            font-family: "Inter", sans-serif;
+        }
+        .raleway
+        {
+            font-family: "Raleway", sans-serif;
+        }
+
+        /* text-[#1DD100] */
+       .Text-Ash{color:rgba(3, 7, 18, 0.6);}
+       .text-bg-Ash{background-color:rgba(3, 7, 18, 0.05);}
+       .spcb2in{justify-content: space-between;}
+       .spcevnly{justify-content: space-evenly;}
+       .greenbg{background-color: rgb(89, 241, 0);}
+
+
+    </style>
+    
+    
 </head>
-<body>
+<body class="inter">
+
+    <header id="anchor1"  class="md:container mx-auto">
+        <nav class="lg:p-6">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="text-[#1DD100] menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost sm:text-3xl text-[#030712] lg:text-4xl font-black">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <!-- right button nav -->
+                <div class="navbar-end">
+                    <div class=" flex border-[1px]  border-[#1DD100]  bg-green-500 bg-opacity-10 w-32 h-14 items-center justify-around rounded-xl">
+                        <h2 class="text-green-500 text-xl font-black">Bus</h2>
+                        <img class="text-xl" src="images/bus-icon.png" alt="">
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>   
     
 </body>
 </html>
